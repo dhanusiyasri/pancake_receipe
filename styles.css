@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.head{
+    background-color: #4a7876;
+    color: white;
+    text-align: center;
+    padding: 20px;    
+}
+body{
+    background-color: antiquewhite;
+}
+img{
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.introduction, .ingredients, .instructions {
+    background-color: #f8f8f8;
+    margin: 20px;
+    margin-right: 200px;
+    margin-left: 200px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;    
+}
+content{
+    margin-left: 0px;
+}
+h2 {
+    color: #b3568f;
+}
+.image{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+ul,ol{
+    padding: 20px;
+    
+}
